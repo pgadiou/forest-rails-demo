@@ -1,9 +1,9 @@
 postgres :
   image : postgres:latest
-  container_name : forest_live_demo_rails
+  container_name : forest_live_demo_rails_v1
   ports :
-    - "5446:5432"
+    - "5447:5432"
   environment:
-    - POSTGRES_DB=forest_live_demo_rails
+    - POSTGRES_DB=forest_live_demo_rails_v1
     - POSTGRES_USER=forest
     - POSTGRES_PASSWORD=secret
