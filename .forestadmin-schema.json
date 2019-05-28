@@ -949,7 +949,7 @@
       "widget": null,
       "validations": []
     }, {
-      "field": "orders",
+      "field": "orders_count",
       "type": "String",
       "default_value": null,
       "enums": null,
@@ -964,7 +964,7 @@
       "widget": null,
       "validations": []
     }, {
-      "field": "amount",
+      "field": "total_amount",
       "type": "Number",
       "default_value": null,
       "enums": null,
