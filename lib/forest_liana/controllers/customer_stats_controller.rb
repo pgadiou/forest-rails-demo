@@ -69,5 +69,4 @@ class Forest::CustomerStatsController < ForestLiana::ApplicationController
     pattern = Regexp.union(escape_character, "%", "_")
     string.gsub(pattern) { |x| [escape_character, x].join }
   end
-
 end
